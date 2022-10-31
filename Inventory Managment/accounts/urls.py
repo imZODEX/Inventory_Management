@@ -8,6 +8,7 @@ from accounts import views
 # from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
+    path("", views.login_page, name="login"),
     path('login/', views.login_page, name="login"),
     path('register/', views.register_page, name="register"),
     path('user/<email>/', views.user_page, name="user"),
