@@ -6,20 +6,22 @@
 6. I you want to register as admin you need to do it from Django Admin or change SQlite data base.
 
 
+FEATURES
+
 1.1	User Interfaces 
 Customer View (can register and login) 
 1.	Registration 
-a.	Signup and logging page 
+    a.	Signup and logging page 
 2.	The home page will show one navigation bar (site name, home, orders history, Cart, search bar, username – change password, help, logout, view profile) and items list with image, price to buy. 
 3.	Cart should show selected items  
-a.	Add to cart option on items  
-b.	All items in cart  
-c.	Cumulative price and solo price of items 
-d.	Cart items will have removed option 
+    a.	Add to cart option on items  
+    b.	All items in cart  
+    c.	Cumulative price and solo price of items 
+    d.	Cart items will have removed option 
 4.	Payment link should come on checkout  
-a.	After clicking on buy the user will see the total amount to pay and payment receipt and confirm button. 
+    a.	After clicking on buy the user will see the total amount to pay and payment receipt and confirm button. 
 5.	Mail notification at successful order placement  
-a.	All transection details will be sent by mail to the user and to the admin also.
+    a.	All transection details will be sent by mail to the user and to the admin also.
 
  
 1.2	Admin Interfaces 
@@ -30,3 +32,5 @@ Admin view (We will make admins)
 4.	Add product 
 5.	Disable Product  
 6.	Change product (Price, Update details)
+
+You can also use email server using proton SMTP server that is also in this.
